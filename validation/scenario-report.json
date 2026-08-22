@@ -1,0 +1,2440 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-20T00:39:23.592Z",
+    "declaredMotor": "3.7 kW, 230 V, 50 Hz, four-pole TEFC squirrel-cage induction motor prototype",
+    "total": 100,
+    "passed": 100,
+    "failed": 0,
+    "acceptable": {
+      "total": 50,
+      "passed": 50
+    },
+    "failure": {
+      "total": 50,
+      "passed": 50
+    }
+  },
+  "failures": [],
+  "results": [
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 1",
+      "settings": {
+        "loadSetting": 35,
+        "voltageSetting": 218,
+        "coolingSetting": 78,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1485,
+        "temperature": 35.2,
+        "vibration": 1.7,
+        "current": 3.3,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 2",
+      "settings": {
+        "loadSetting": 42,
+        "voltageSetting": 223,
+        "coolingSetting": 81,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1481,
+        "temperature": 38.7,
+        "vibration": 1.7,
+        "current": 3.6,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 3",
+      "settings": {
+        "loadSetting": 49,
+        "voltageSetting": 228,
+        "coolingSetting": 84,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1481,
+        "temperature": 42.3,
+        "vibration": 1.8,
+        "current": 3.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 4",
+      "settings": {
+        "loadSetting": 56,
+        "voltageSetting": 233,
+        "coolingSetting": 87,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1449,
+        "temperature": 46.1,
+        "vibration": 1.9,
+        "current": 4.2,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 5",
+      "settings": {
+        "loadSetting": 63,
+        "voltageSetting": 238,
+        "coolingSetting": 90,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1449,
+        "temperature": 48.8,
+        "vibration": 2,
+        "current": 4.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 6",
+      "settings": {
+        "loadSetting": 70,
+        "voltageSetting": 218,
+        "coolingSetting": 93,
+        "tempStress": 28
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1443,
+        "temperature": 54.3,
+        "vibration": 2,
+        "current": 4.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 7",
+      "settings": {
+        "loadSetting": 77,
+        "voltageSetting": 223,
+        "coolingSetting": 96,
+        "tempStress": 30
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1440,
+        "temperature": 57.8,
+        "vibration": 2.1,
+        "current": 5.2,
+        "health": 94,
+        "risk": 8
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 8",
+      "settings": {
+        "loadSetting": 38,
+        "voltageSetting": 228,
+        "coolingSetting": 99,
+        "tempStress": 32
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1484,
+        "temperature": 45.7,
+        "vibration": 1.7,
+        "current": 3.3,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 9",
+      "settings": {
+        "loadSetting": 45,
+        "voltageSetting": 233,
+        "coolingSetting": 79,
+        "tempStress": 34
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1481,
+        "temperature": 53.6,
+        "vibration": 1.7,
+        "current": 3.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 10",
+      "settings": {
+        "loadSetting": 52,
+        "voltageSetting": 238,
+        "coolingSetting": 82,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1479,
+        "temperature": 39.1,
+        "vibration": 1.8,
+        "current": 3.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 11",
+      "settings": {
+        "loadSetting": 59,
+        "voltageSetting": 218,
+        "coolingSetting": 85,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1447,
+        "temperature": 45.8,
+        "vibration": 1.9,
+        "current": 4.6,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 12",
+      "settings": {
+        "loadSetting": 66,
+        "voltageSetting": 223,
+        "coolingSetting": 88,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1445,
+        "temperature": 47.4,
+        "vibration": 1.9,
+        "current": 4.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 13",
+      "settings": {
+        "loadSetting": 73,
+        "voltageSetting": 228,
+        "coolingSetting": 91,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1446,
+        "temperature": 50.6,
+        "vibration": 2,
+        "current": 4.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 14",
+      "settings": {
+        "loadSetting": 80,
+        "voltageSetting": 233,
+        "coolingSetting": 94,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1443,
+        "temperature": 54.5,
+        "vibration": 2.1,
+        "current": 5.2,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 15",
+      "settings": {
+        "loadSetting": 41,
+        "voltageSetting": 238,
+        "coolingSetting": 97,
+        "tempStress": 28
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1484,
+        "temperature": 42.4,
+        "vibration": 1.8,
+        "current": 3.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 16",
+      "settings": {
+        "loadSetting": 48,
+        "voltageSetting": 218,
+        "coolingSetting": 100,
+        "tempStress": 30
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1454,
+        "temperature": 47.7,
+        "vibration": 1.8,
+        "current": 4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 17",
+      "settings": {
+        "loadSetting": 55,
+        "voltageSetting": 223,
+        "coolingSetting": 80,
+        "tempStress": 32
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1449,
+        "temperature": 56.6,
+        "vibration": 1.9,
+        "current": 4.3,
+        "health": 94,
+        "risk": 5
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 18",
+      "settings": {
+        "loadSetting": 62,
+        "voltageSetting": 228,
+        "coolingSetting": 83,
+        "tempStress": 34
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1449,
+        "temperature": 59.9,
+        "vibration": 2,
+        "current": 4.5,
+        "health": 94,
+        "risk": 14
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 19",
+      "settings": {
+        "loadSetting": 69,
+        "voltageSetting": 233,
+        "coolingSetting": 86,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1445,
+        "temperature": 43.8,
+        "vibration": 2,
+        "current": 4.6,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 20",
+      "settings": {
+        "loadSetting": 76,
+        "voltageSetting": 238,
+        "coolingSetting": 89,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1448,
+        "temperature": 47.3,
+        "vibration": 2.1,
+        "current": 4.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 21",
+      "settings": {
+        "loadSetting": 37,
+        "voltageSetting": 218,
+        "coolingSetting": 92,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1483,
+        "temperature": 37.3,
+        "vibration": 1.7,
+        "current": 3.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 22",
+      "settings": {
+        "loadSetting": 44,
+        "voltageSetting": 223,
+        "coolingSetting": 95,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1482,
+        "temperature": 40.7,
+        "vibration": 1.7,
+        "current": 3.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 23",
+      "settings": {
+        "loadSetting": 51,
+        "voltageSetting": 228,
+        "coolingSetting": 98,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1467,
+        "temperature": 44.1,
+        "vibration": 1.8,
+        "current": 4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 24",
+      "settings": {
+        "loadSetting": 58,
+        "voltageSetting": 233,
+        "coolingSetting": 78,
+        "tempStress": 28
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1476,
+        "temperature": 53.6,
+        "vibration": 1.9,
+        "current": 4.3,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 25",
+      "settings": {
+        "loadSetting": 65,
+        "voltageSetting": 238,
+        "coolingSetting": 81,
+        "tempStress": 30
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1478,
+        "temperature": 55.5,
+        "vibration": 2,
+        "current": 4.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 26",
+      "settings": {
+        "loadSetting": 72,
+        "voltageSetting": 218,
+        "coolingSetting": 84,
+        "tempStress": 32
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1442,
+        "temperature": 62.1,
+        "vibration": 2,
+        "current": 5,
+        "health": 94,
+        "risk": 20
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 27",
+      "settings": {
+        "loadSetting": 79,
+        "voltageSetting": 223,
+        "coolingSetting": 87,
+        "tempStress": 34
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1440,
+        "temperature": 65.7,
+        "vibration": 2.1,
+        "current": 5.3,
+        "health": 94,
+        "risk": 30
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 28",
+      "settings": {
+        "loadSetting": 40,
+        "voltageSetting": 228,
+        "coolingSetting": 90,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1483,
+        "temperature": 33.8,
+        "vibration": 1.7,
+        "current": 3.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 29",
+      "settings": {
+        "loadSetting": 47,
+        "voltageSetting": 233,
+        "coolingSetting": 93,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1479,
+        "temperature": 37.4,
+        "vibration": 1.8,
+        "current": 3.8,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 30",
+      "settings": {
+        "loadSetting": 54,
+        "voltageSetting": 238,
+        "coolingSetting": 96,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1479,
+        "temperature": 40.7,
+        "vibration": 1.8,
+        "current": 4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 31",
+      "settings": {
+        "loadSetting": 61,
+        "voltageSetting": 218,
+        "coolingSetting": 99,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1446,
+        "temperature": 47,
+        "vibration": 1.9,
+        "current": 4.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 32",
+      "settings": {
+        "loadSetting": 68,
+        "voltageSetting": 223,
+        "coolingSetting": 79,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1445,
+        "temperature": 54.8,
+        "vibration": 2,
+        "current": 4.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 33",
+      "settings": {
+        "loadSetting": 75,
+        "voltageSetting": 228,
+        "coolingSetting": 82,
+        "tempStress": 28
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1444,
+        "temperature": 58.5,
+        "vibration": 2.1,
+        "current": 5,
+        "health": 94,
+        "risk": 10
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 34",
+      "settings": {
+        "loadSetting": 36,
+        "voltageSetting": 233,
+        "coolingSetting": 85,
+        "tempStress": 30
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1486,
+        "temperature": 45.1,
+        "vibration": 1.7,
+        "current": 3.2,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 35",
+      "settings": {
+        "loadSetting": 43,
+        "voltageSetting": 238,
+        "coolingSetting": 88,
+        "tempStress": 32
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1483,
+        "temperature": 48.5,
+        "vibration": 1.7,
+        "current": 3.5,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 36",
+      "settings": {
+        "loadSetting": 50,
+        "voltageSetting": 218,
+        "coolingSetting": 91,
+        "tempStress": 34
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1452,
+        "temperature": 54.2,
+        "vibration": 1.8,
+        "current": 4.1,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 37",
+      "settings": {
+        "loadSetting": 57,
+        "voltageSetting": 223,
+        "coolingSetting": 94,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1450,
+        "temperature": 39.8,
+        "vibration": 1.9,
+        "current": 4.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 38",
+      "settings": {
+        "loadSetting": 64,
+        "voltageSetting": 228,
+        "coolingSetting": 97,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1449,
+        "temperature": 42.3,
+        "vibration": 2,
+        "current": 4.6,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 39",
+      "settings": {
+        "loadSetting": 71,
+        "voltageSetting": 233,
+        "coolingSetting": 100,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1448,
+        "temperature": 45,
+        "vibration": 2,
+        "current": 4.7,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 40",
+      "settings": {
+        "loadSetting": 78,
+        "voltageSetting": 238,
+        "coolingSetting": 80,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1446,
+        "temperature": 55.3,
+        "vibration": 2.1,
+        "current": 5,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 41",
+      "settings": {
+        "loadSetting": 39,
+        "voltageSetting": 218,
+        "coolingSetting": 83,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1482,
+        "temperature": 43.6,
+        "vibration": 1.7,
+        "current": 3.5,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 42",
+      "settings": {
+        "loadSetting": 46,
+        "voltageSetting": 223,
+        "coolingSetting": 86,
+        "tempStress": 28
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1479,
+        "temperature": 47.2,
+        "vibration": 1.8,
+        "current": 3.8,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 43",
+      "settings": {
+        "loadSetting": 53,
+        "voltageSetting": 228,
+        "coolingSetting": 89,
+        "tempStress": 30
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1481,
+        "temperature": 50.7,
+        "vibration": 1.8,
+        "current": 4.1,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 44",
+      "settings": {
+        "loadSetting": 60,
+        "voltageSetting": 233,
+        "coolingSetting": 92,
+        "tempStress": 32
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1450,
+        "temperature": 54.5,
+        "vibration": 1.9,
+        "current": 4.4,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 45",
+      "settings": {
+        "loadSetting": 67,
+        "voltageSetting": 238,
+        "coolingSetting": 95,
+        "tempStress": 34
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1450,
+        "temperature": 55.9,
+        "vibration": 2,
+        "current": 4.4,
+        "health": 94,
+        "risk": 2
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 46",
+      "settings": {
+        "loadSetting": 74,
+        "voltageSetting": 218,
+        "coolingSetting": 98,
+        "tempStress": 18
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1441,
+        "temperature": 44.8,
+        "vibration": 2,
+        "current": 5.1,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 47",
+      "settings": {
+        "loadSetting": 35,
+        "voltageSetting": 223,
+        "coolingSetting": 78,
+        "tempStress": 20
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1485,
+        "temperature": 36.7,
+        "vibration": 1.7,
+        "current": 3.2,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 48",
+      "settings": {
+        "loadSetting": 42,
+        "voltageSetting": 228,
+        "coolingSetting": 81,
+        "tempStress": 22
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1482,
+        "temperature": 40.3,
+        "vibration": 1.7,
+        "current": 3.5,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 49",
+      "settings": {
+        "loadSetting": 49,
+        "voltageSetting": 233,
+        "coolingSetting": 84,
+        "tempStress": 24
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1480,
+        "temperature": 44,
+        "vibration": 1.8,
+        "current": 3.9,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "acceptable",
+      "name": "Acceptable envelope 50",
+      "settings": {
+        "loadSetting": 56,
+        "voltageSetting": 238,
+        "coolingSetting": 87,
+        "tempStress": 26
+      },
+      "outcome": "stable",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1478,
+        "temperature": 47.5,
+        "vibration": 1.9,
+        "current": 4.1,
+        "health": 94,
+        "risk": 1
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Cooling blockage severity 1",
+      "settings": {
+        "coolingSetting": 35,
+        "loadSetting": 85,
+        "injectFault": {
+          "id": "cooling_failure",
+          "name": "Cooling blockage",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Cooling blockage"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 38,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 92,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Cooling blockage severity 2",
+      "settings": {
+        "coolingSetting": 32,
+        "loadSetting": 88,
+        "injectFault": {
+          "id": "cooling_failure",
+          "name": "Cooling blockage",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Cooling blockage"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 36,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 92,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Cooling blockage severity 3",
+      "settings": {
+        "coolingSetting": 29,
+        "loadSetting": 91,
+        "injectFault": {
+          "id": "cooling_failure",
+          "name": "Cooling blockage",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Cooling blockage"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 34,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 92,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Cooling blockage severity 4",
+      "settings": {
+        "coolingSetting": 26,
+        "loadSetting": 94,
+        "injectFault": {
+          "id": "cooling_failure",
+          "name": "Cooling blockage",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Cooling blockage"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 33,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 92,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Cooling blockage severity 5",
+      "settings": {
+        "coolingSetting": 23,
+        "loadSetting": 97,
+        "injectFault": {
+          "id": "cooling_failure",
+          "name": "Cooling blockage",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Cooling blockage"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 31,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 92,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "External overheating severity 1",
+      "settings": {
+        "tempStress": 40,
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "overheating",
+          "name": "External overheating",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: External overheating"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 270,
+      "final": {
+        "rpm": 0,
+        "temperature": 40.3,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 75,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "External overheating severity 2",
+      "settings": {
+        "tempStress": 42,
+        "loadSetting": 83,
+        "injectFault": {
+          "id": "overheating",
+          "name": "External overheating",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: External overheating"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 239,
+      "final": {
+        "rpm": 0,
+        "temperature": 42.3,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 78,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "External overheating severity 3",
+      "settings": {
+        "tempStress": 44,
+        "loadSetting": 86,
+        "injectFault": {
+          "id": "overheating",
+          "name": "External overheating",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: External overheating"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 215,
+      "final": {
+        "rpm": 0,
+        "temperature": 44.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 79,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "External overheating severity 4",
+      "settings": {
+        "tempStress": 46,
+        "loadSetting": 89,
+        "injectFault": {
+          "id": "overheating",
+          "name": "External overheating",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: External overheating"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 195,
+      "final": {
+        "rpm": 0,
+        "temperature": 46.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 81,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "External overheating severity 5",
+      "settings": {
+        "tempStress": 48,
+        "loadSetting": 92,
+        "injectFault": {
+          "id": "overheating",
+          "name": "External overheating",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: External overheating"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 178,
+      "final": {
+        "rpm": 0,
+        "temperature": 48.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 82,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Bearing degradation severity 1",
+      "settings": {
+        "bearingHealth": 55,
+        "lubricationHealth": 55,
+        "injectFault": {
+          "id": "bearing_degradation",
+          "name": "Bearing degradation",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Bearing degradation"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 127,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 21,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Bearing degradation severity 2",
+      "settings": {
+        "bearingHealth": 49,
+        "lubricationHealth": 48,
+        "injectFault": {
+          "id": "bearing_degradation",
+          "name": "Bearing degradation",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Bearing degradation"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 93,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 21,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Bearing degradation severity 3",
+      "settings": {
+        "bearingHealth": 43,
+        "lubricationHealth": 41,
+        "injectFault": {
+          "id": "bearing_degradation",
+          "name": "Bearing degradation",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Bearing degradation"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 63,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 21,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Bearing degradation severity 4",
+      "settings": {
+        "bearingHealth": 37,
+        "lubricationHealth": 34,
+        "injectFault": {
+          "id": "bearing_degradation",
+          "name": "Bearing degradation",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Bearing degradation"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 38,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 21,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Bearing degradation severity 5",
+      "settings": {
+        "bearingHealth": 31,
+        "lubricationHealth": 27,
+        "injectFault": {
+          "id": "bearing_degradation",
+          "name": "Bearing degradation",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Bearing degradation"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 23,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 19,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Shaft imbalance severity 1",
+      "settings": {
+        "loadSetting": 75,
+        "injectFault": {
+          "id": "shaft_imbalance",
+          "name": "Shaft imbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Shaft imbalance"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 84,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 81,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Shaft imbalance severity 2",
+      "settings": {
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "shaft_imbalance",
+          "name": "Shaft imbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Shaft imbalance"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 78,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 82,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Shaft imbalance severity 3",
+      "settings": {
+        "loadSetting": 85,
+        "injectFault": {
+          "id": "shaft_imbalance",
+          "name": "Shaft imbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Shaft imbalance"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 73,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 83,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Shaft imbalance severity 4",
+      "settings": {
+        "loadSetting": 90,
+        "injectFault": {
+          "id": "shaft_imbalance",
+          "name": "Shaft imbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Shaft imbalance"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 45,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 88,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Shaft imbalance severity 5",
+      "settings": {
+        "loadSetting": 95,
+        "injectFault": {
+          "id": "shaft_imbalance",
+          "name": "Shaft imbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Shaft imbalance"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 28,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 91,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive vibration severity 1",
+      "settings": {
+        "loadSetting": 75,
+        "injectFault": {
+          "id": "excessive_vibration",
+          "name": "Excessive vibration",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive vibration"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 189,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 69,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive vibration severity 2",
+      "settings": {
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "excessive_vibration",
+          "name": "Excessive vibration",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive vibration"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 183,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 69,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive vibration severity 3",
+      "settings": {
+        "loadSetting": 85,
+        "injectFault": {
+          "id": "excessive_vibration",
+          "name": "Excessive vibration",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive vibration"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 176,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 70,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive vibration severity 4",
+      "settings": {
+        "loadSetting": 90,
+        "injectFault": {
+          "id": "excessive_vibration",
+          "name": "Excessive vibration",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive vibration"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 168,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 71,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive vibration severity 5",
+      "settings": {
+        "loadSetting": 95,
+        "injectFault": {
+          "id": "excessive_vibration",
+          "name": "Excessive vibration",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive vibration"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 161,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.2,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 72,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Voltage drop severity 1",
+      "settings": {
+        "voltageSetting": 195,
+        "loadSetting": 75,
+        "injectFault": {
+          "id": "voltage_drop",
+          "name": "Voltage drop",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Voltage drop"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1426,
+        "temperature": 64.4,
+        "vibration": 2.1,
+        "current": 6.3,
+        "health": 94,
+        "risk": 71
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Voltage drop severity 2",
+      "settings": {
+        "voltageSetting": 190,
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "voltage_drop",
+          "name": "Voltage drop",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Voltage drop"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1420,
+        "temperature": 68.1,
+        "vibration": 2.1,
+        "current": 6.6,
+        "health": 94,
+        "risk": 71
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Voltage drop severity 3",
+      "settings": {
+        "voltageSetting": 185,
+        "loadSetting": 85,
+        "injectFault": {
+          "id": "voltage_drop",
+          "name": "Voltage drop",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Voltage drop"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1414,
+        "temperature": 71.9,
+        "vibration": 2.2,
+        "current": 6.9,
+        "health": 94,
+        "risk": 71
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Voltage drop severity 4",
+      "settings": {
+        "voltageSetting": 180,
+        "loadSetting": 90,
+        "injectFault": {
+          "id": "voltage_drop",
+          "name": "Voltage drop",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Voltage drop"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1408,
+        "temperature": 75.9,
+        "vibration": 2.2,
+        "current": 7.3,
+        "health": 83,
+        "risk": 71
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Voltage drop severity 5",
+      "settings": {
+        "voltageSetting": 175,
+        "loadSetting": 95,
+        "injectFault": {
+          "id": "voltage_drop",
+          "name": "Voltage drop",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Voltage drop"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 1617,
+      "final": {
+        "rpm": 0,
+        "temperature": 58.3,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 0,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Overcurrent severity 1",
+      "settings": {
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "overcurrent",
+          "name": "Overcurrent",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Overcurrent"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 424,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.6,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 62,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Overcurrent severity 2",
+      "settings": {
+        "loadSetting": 84,
+        "injectFault": {
+          "id": "overcurrent",
+          "name": "Overcurrent",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Overcurrent"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 356,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.5,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 68,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Overcurrent severity 3",
+      "settings": {
+        "loadSetting": 88,
+        "injectFault": {
+          "id": "overcurrent",
+          "name": "Overcurrent",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Overcurrent"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 307,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.4,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 72,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Overcurrent severity 4",
+      "settings": {
+        "loadSetting": 92,
+        "injectFault": {
+          "id": "overcurrent",
+          "name": "Overcurrent",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Overcurrent"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 270,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.4,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 76,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Overcurrent severity 5",
+      "settings": {
+        "loadSetting": 96,
+        "injectFault": {
+          "id": "overcurrent",
+          "name": "Overcurrent",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Overcurrent"
+        }
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 241,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.3,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 78,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Power unbalance severity 1",
+      "settings": {
+        "loadSetting": 75,
+        "injectFault": {
+          "id": "power_instability",
+          "name": "Power unbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Power unbalance"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1435,
+        "temperature": 52,
+        "vibration": 2.1,
+        "current": 5,
+        "health": 94,
+        "risk": 63
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Power unbalance severity 2",
+      "settings": {
+        "loadSetting": 80,
+        "injectFault": {
+          "id": "power_instability",
+          "name": "Power unbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Power unbalance"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1443,
+        "temperature": 54.4,
+        "vibration": 2.1,
+        "current": 5.2,
+        "health": 94,
+        "risk": 63
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Power unbalance severity 3",
+      "settings": {
+        "loadSetting": 85,
+        "injectFault": {
+          "id": "power_instability",
+          "name": "Power unbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Power unbalance"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1441,
+        "temperature": 56.8,
+        "vibration": 2.2,
+        "current": 5.5,
+        "health": 94,
+        "risk": 62
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Power unbalance severity 4",
+      "settings": {
+        "loadSetting": 90,
+        "injectFault": {
+          "id": "power_instability",
+          "name": "Power unbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Power unbalance"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1434,
+        "temperature": 59.4,
+        "vibration": 2.2,
+        "current": 5.7,
+        "health": 94,
+        "risk": 63
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Power unbalance severity 5",
+      "settings": {
+        "loadSetting": 95,
+        "injectFault": {
+          "id": "power_instability",
+          "name": "Power unbalance",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Power unbalance"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1430,
+        "temperature": 62.1,
+        "vibration": 2.3,
+        "current": 6,
+        "health": 94,
+        "risk": 63
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive load severity 1",
+      "settings": {
+        "loadSetting": 100,
+        "injectFault": {
+          "id": "excessive_load",
+          "name": "Excessive load",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive load"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1417,
+        "temperature": 74.2,
+        "vibration": 2.5,
+        "current": 7.1,
+        "health": 94,
+        "risk": 92
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive load severity 2",
+      "settings": {
+        "loadSetting": 104,
+        "injectFault": {
+          "id": "excessive_load",
+          "name": "Excessive load",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive load"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1417,
+        "temperature": 74.2,
+        "vibration": 2.5,
+        "current": 7.1,
+        "health": 94,
+        "risk": 92
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive load severity 3",
+      "settings": {
+        "loadSetting": 108,
+        "injectFault": {
+          "id": "excessive_load",
+          "name": "Excessive load",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive load"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1417,
+        "temperature": 74.2,
+        "vibration": 2.5,
+        "current": 7.1,
+        "health": 94,
+        "risk": 92
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive load severity 4",
+      "settings": {
+        "loadSetting": 112,
+        "injectFault": {
+          "id": "excessive_load",
+          "name": "Excessive load",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive load"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1417,
+        "temperature": 74.2,
+        "vibration": 2.5,
+        "current": 7.1,
+        "health": 94,
+        "risk": 92
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Excessive load severity 5",
+      "settings": {
+        "loadSetting": 116,
+        "injectFault": {
+          "id": "excessive_load",
+          "name": "Excessive load",
+          "severity": "CRITICAL",
+          "description": "Validation scenario: Excessive load"
+        }
+      },
+      "outcome": "degraded",
+      "tripAtSeconds": -1,
+      "final": {
+        "rpm": 1417,
+        "temperature": 74.2,
+        "vibration": 2.6,
+        "current": 7.1,
+        "health": 94,
+        "risk": 92
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Combined thermal/mechanical severity 1",
+      "settings": {
+        "coolingSetting": 45,
+        "loadSetting": 95,
+        "bearingHealth": 70,
+        "activeFaults": [
+          {
+            "id": "cooling_failure",
+            "name": "cooling_failure",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: cooling_failure"
+          },
+          {
+            "id": "shaft_imbalance",
+            "name": "shaft_imbalance",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: shaft_imbalance"
+          }
+        ]
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 12,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 68,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Combined thermal/mechanical severity 2",
+      "settings": {
+        "coolingSetting": 41,
+        "loadSetting": 99,
+        "bearingHealth": 65,
+        "activeFaults": [
+          {
+            "id": "cooling_failure",
+            "name": "cooling_failure",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: cooling_failure"
+          },
+          {
+            "id": "shaft_imbalance",
+            "name": "shaft_imbalance",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: shaft_imbalance"
+          }
+        ]
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 11,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 63,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Combined thermal/mechanical severity 3",
+      "settings": {
+        "coolingSetting": 37,
+        "loadSetting": 103,
+        "bearingHealth": 60,
+        "activeFaults": [
+          {
+            "id": "cooling_failure",
+            "name": "cooling_failure",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: cooling_failure"
+          },
+          {
+            "id": "shaft_imbalance",
+            "name": "shaft_imbalance",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: shaft_imbalance"
+          }
+        ]
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 10,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 59,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Combined thermal/mechanical severity 4",
+      "settings": {
+        "coolingSetting": 33,
+        "loadSetting": 107,
+        "bearingHealth": 55,
+        "activeFaults": [
+          {
+            "id": "cooling_failure",
+            "name": "cooling_failure",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: cooling_failure"
+          },
+          {
+            "id": "shaft_imbalance",
+            "name": "shaft_imbalance",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: shaft_imbalance"
+          }
+        ]
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 9,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 54,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    },
+    {
+      "group": "failure",
+      "name": "Combined thermal/mechanical severity 5",
+      "settings": {
+        "coolingSetting": 29,
+        "loadSetting": 111,
+        "bearingHealth": 50,
+        "activeFaults": [
+          {
+            "id": "cooling_failure",
+            "name": "cooling_failure",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: cooling_failure"
+          },
+          {
+            "id": "shaft_imbalance",
+            "name": "shaft_imbalance",
+            "severity": "CRITICAL",
+            "description": "Validation scenario: shaft_imbalance"
+          }
+        ]
+      },
+      "outcome": "tripped",
+      "tripAtSeconds": 9,
+      "final": {
+        "rpm": 0,
+        "temperature": 25.1,
+        "vibration": 0.1,
+        "current": 0,
+        "health": 49,
+        "risk": 100
+      },
+      "pass": true,
+      "failedChecks": []
+    }
+  ]
+}

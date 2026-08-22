@@ -1,0 +1,958 @@
+{
+  "generatedAt": "2026-08-19T19:31:55.287Z",
+  "total": 50,
+  "passed": 50,
+  "failed": 0,
+  "results": [
+    {
+      "case": 1,
+      "id": "cooling_failure",
+      "name": "Cooling Loss",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 2,
+      "id": "overheating",
+      "name": "Thermal Overload",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the external heat source, reduced load, and enabled maximum cooldown."
+      ]
+    },
+    {
+      "case": 3,
+      "id": "bearing_degradation",
+      "name": "Bearing Damage",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Replaced the drive-end bearing, renewed lubricant, and checked shaft alignment."
+      ]
+    },
+    {
+      "case": 4,
+      "id": "shaft_imbalance",
+      "name": "Shaft Imbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Realigned the shaft and balanced the rotor/coupling assembly."
+      ]
+    },
+    {
+      "case": 5,
+      "id": "excessive_vibration",
+      "name": "Excessive Vibration",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Secured the mounting and reduced load to remove excessive vibration."
+      ]
+    },
+    {
+      "case": 6,
+      "id": "voltage_drop",
+      "name": "Voltage Drop",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 7,
+      "id": "overcurrent",
+      "name": "Overcurrent",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the overcurrent condition and returned the motor to rated load and voltage."
+      ]
+    },
+    {
+      "case": 8,
+      "id": "power_instability",
+      "name": "Three-Phase Unbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 9,
+      "id": "excessive_load",
+      "name": "Excessive Load",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the excessive mechanical load and restored the 64% nominal operating point."
+      ]
+    },
+    {
+      "case": 10,
+      "id": "cooling_failure",
+      "name": "Combined Thermal Stress",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 11,
+      "id": "cooling_failure",
+      "name": "Cooling Loss",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 12,
+      "id": "overheating",
+      "name": "Thermal Overload",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the external heat source, reduced load, and enabled maximum cooldown."
+      ]
+    },
+    {
+      "case": 13,
+      "id": "bearing_degradation",
+      "name": "Bearing Damage",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Replaced the drive-end bearing, renewed lubricant, and checked shaft alignment."
+      ]
+    },
+    {
+      "case": 14,
+      "id": "shaft_imbalance",
+      "name": "Shaft Imbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Realigned the shaft and balanced the rotor/coupling assembly."
+      ]
+    },
+    {
+      "case": 15,
+      "id": "excessive_vibration",
+      "name": "Excessive Vibration",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Secured the mounting and reduced load to remove excessive vibration."
+      ]
+    },
+    {
+      "case": 16,
+      "id": "voltage_drop",
+      "name": "Voltage Drop",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 17,
+      "id": "overcurrent",
+      "name": "Overcurrent",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the overcurrent condition and returned the motor to rated load and voltage."
+      ]
+    },
+    {
+      "case": 18,
+      "id": "power_instability",
+      "name": "Three-Phase Unbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 19,
+      "id": "excessive_load",
+      "name": "Excessive Load",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the excessive mechanical load and restored the 64% nominal operating point."
+      ]
+    },
+    {
+      "case": 20,
+      "id": "cooling_failure",
+      "name": "Combined Thermal Stress",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 21,
+      "id": "cooling_failure",
+      "name": "Cooling Loss",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 22,
+      "id": "overheating",
+      "name": "Thermal Overload",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the external heat source, reduced load, and enabled maximum cooldown."
+      ]
+    },
+    {
+      "case": 23,
+      "id": "bearing_degradation",
+      "name": "Bearing Damage",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Replaced the drive-end bearing, renewed lubricant, and checked shaft alignment."
+      ]
+    },
+    {
+      "case": 24,
+      "id": "shaft_imbalance",
+      "name": "Shaft Imbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Realigned the shaft and balanced the rotor/coupling assembly."
+      ]
+    },
+    {
+      "case": 25,
+      "id": "excessive_vibration",
+      "name": "Excessive Vibration",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Secured the mounting and reduced load to remove excessive vibration."
+      ]
+    },
+    {
+      "case": 26,
+      "id": "voltage_drop",
+      "name": "Voltage Drop",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 27,
+      "id": "overcurrent",
+      "name": "Overcurrent",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the overcurrent condition and returned the motor to rated load and voltage."
+      ]
+    },
+    {
+      "case": 28,
+      "id": "power_instability",
+      "name": "Three-Phase Unbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 29,
+      "id": "excessive_load",
+      "name": "Excessive Load",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the excessive mechanical load and restored the 64% nominal operating point."
+      ]
+    },
+    {
+      "case": 30,
+      "id": "cooling_failure",
+      "name": "Combined Thermal Stress",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 31,
+      "id": "cooling_failure",
+      "name": "Cooling Loss",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 32,
+      "id": "overheating",
+      "name": "Thermal Overload",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the external heat source, reduced load, and enabled maximum cooldown."
+      ]
+    },
+    {
+      "case": 33,
+      "id": "bearing_degradation",
+      "name": "Bearing Damage",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Replaced the drive-end bearing, renewed lubricant, and checked shaft alignment."
+      ]
+    },
+    {
+      "case": 34,
+      "id": "shaft_imbalance",
+      "name": "Shaft Imbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Realigned the shaft and balanced the rotor/coupling assembly."
+      ]
+    },
+    {
+      "case": 35,
+      "id": "excessive_vibration",
+      "name": "Excessive Vibration",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Secured the mounting and reduced load to remove excessive vibration."
+      ]
+    },
+    {
+      "case": 36,
+      "id": "voltage_drop",
+      "name": "Voltage Drop",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 37,
+      "id": "overcurrent",
+      "name": "Overcurrent",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the overcurrent condition and returned the motor to rated load and voltage."
+      ]
+    },
+    {
+      "case": 38,
+      "id": "power_instability",
+      "name": "Three-Phase Unbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 39,
+      "id": "excessive_load",
+      "name": "Excessive Load",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the excessive mechanical load and restored the 64% nominal operating point."
+      ]
+    },
+    {
+      "case": 40,
+      "id": "cooling_failure",
+      "name": "Combined Thermal Stress",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 41,
+      "id": "cooling_failure",
+      "name": "Cooling Loss",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    },
+    {
+      "case": 42,
+      "id": "overheating",
+      "name": "Thermal Overload",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the external heat source, reduced load, and enabled maximum cooldown."
+      ]
+    },
+    {
+      "case": 43,
+      "id": "bearing_degradation",
+      "name": "Bearing Damage",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Replaced the drive-end bearing, renewed lubricant, and checked shaft alignment."
+      ]
+    },
+    {
+      "case": 44,
+      "id": "shaft_imbalance",
+      "name": "Shaft Imbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Realigned the shaft and balanced the rotor/coupling assembly."
+      ]
+    },
+    {
+      "case": 45,
+      "id": "excessive_vibration",
+      "name": "Excessive Vibration",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Secured the mounting and reduced load to remove excessive vibration."
+      ]
+    },
+    {
+      "case": 46,
+      "id": "voltage_drop",
+      "name": "Voltage Drop",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 47,
+      "id": "overcurrent",
+      "name": "Overcurrent",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the overcurrent condition and returned the motor to rated load and voltage."
+      ]
+    },
+    {
+      "case": 48,
+      "id": "power_instability",
+      "name": "Three-Phase Unbalance",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Restored the regulated three-phase supply to 230 V."
+      ]
+    },
+    {
+      "case": 49,
+      "id": "excessive_load",
+      "name": "Excessive Load",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Removed the excessive mechanical load and restored the 64% nominal operating point."
+      ]
+    },
+    {
+      "case": 50,
+      "id": "cooling_failure",
+      "name": "Combined Thermal Stress",
+      "pass": true,
+      "checks": {
+        "diagnosed": true,
+        "restartBlockedBeforeVerification": true,
+        "repairActionsReported": true,
+        "verificationPassed": true,
+        "monitoredRestart": true,
+        "safeRestartLoad": true,
+        "causalFaultCleared": true
+      },
+      "actions": [
+        "Motor isolated. Repair is required before verification or restart.",
+        "Cleared the cooling inlet and restored fan output to 92%."
+      ]
+    }
+  ]
+}

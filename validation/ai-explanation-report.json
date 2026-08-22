@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-08-19T19:31:50.431Z",
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "baseline",
+      "status": 200,
+      "elapsedMs": 2221,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "stable",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor simulation indicates stable nominal operation with no trip events, maintaining a peak winding temperature of 64.2°C and low vibration levels of 2.1 mm/s. Overall system health remains excellent at a minimum bearing health score of 95%, confirming the device is operating within its healthy baseline. No maintenance actions are required beyond standard monitoring schedules.",
+      "pass": true
+    },
+    {
+      "name": "high-load",
+      "status": 200,
+      "elapsedMs": 1942,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "stable",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor simulation indicates stable nominal operation with no trip events, maintaining a peak winding temperature of 64.2°C and low vibration levels of 2.3 mm/s. Overall system health remains excellent at a minimum bearing health score of 95%, confirming the device is operating within its healthy baseline. No action is required beyond continuing standard monitoring schedules.",
+      "pass": true
+    },
+    {
+      "name": "cooling-loss",
+      "status": 200,
+      "elapsedMs": 2282,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "tripped",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor tripped at 45 seconds due to thermal overload caused by an unavailable cooling system, with peak winding temperature reaching 90.4°C before the safety intervention. Although vibration remained low at 2.1 and bearing health was high at 94, the restricted cooling prevented heat dissipation, leading to the critical trip condition. The subsequent lower temperature readings represent post-trip cooldown rather than the failure peak.",
+      "pass": true
+    },
+    {
+      "name": "overheating",
+      "status": 200,
+      "elapsedMs": 2411,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "tripped",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor tripped at 251 seconds (4m 11s) due to a critical breach of safety thresholds driven by high temperature, which peaked at 88.4°C alongside a minimum bearing health score of 89 and current draw of 4.9A. This emergency lockout was activated by the combined mechanical and thermal stress evident in the pre-trip data, rather than any post-trip cooldown values.",
+      "pass": true
+    },
+    {
+      "name": "bearing-wear",
+      "status": 200,
+      "elapsedMs": 2256,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "tripped",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor tripped at 89 seconds due to critical mechanical degradation, evidenced by a peak vibration of 6.9 mm/s and a minimum bearing health of 22% prior to the event. Although the temperature reached 67.3°C during operation, the failure was driven by severe bearing wear rather than thermal overload. Immediate actions required include performing a complete motor reset and replacing the bearings while aligning coupler joints.",
+      "pass": true
+    },
+    {
+      "name": "imbalance",
+      "status": 200,
+      "elapsedMs": 2496,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "tripped",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor tripped at 94 seconds due to high vibration reaching a peak of 6.8 alongside a temperature of 64.2°C and current of 4.9A, which breached safety thresholds before the final cooldown state of 80% bearing health was recorded. This critical event occurred within the first minute and thirty-four seconds of operation, indicating that mechanical stress combined with thermal load triggered the emergency lockout. A complete motor reset is required to restore operational status.",
+      "pass": true
+    },
+    {
+      "name": "vibration",
+      "status": 200,
+      "elapsedMs": 2125,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "tripped",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor tripped at 205 seconds due to high vibration reaching a peak of 6.8, which occurred alongside a temperature of 64.2 and a minimum bearing health score of 67. This critical event was triggered by the combined mechanical stress from the dominant vibration risk factors rather than thermal overload alone. A complete motor reset is required following this emergency lockout activation.",
+      "pass": true
+    },
+    {
+      "name": "voltage-drop",
+      "status": 200,
+      "elapsedMs": 2347,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "degraded",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor survived the forecast window in a degraded condition with an overall asset health of 94%, driven by a dominant voltage mismatch where minimum supply voltage dropped to 182 V while peak current reached 5.7 A. Although bearing health remained high at 95% and vibration was low at 2.1, the material risk level associated with the voltage deviation requires correction before continued service. No trip occurred during this simulation period.",
+      "pass": true
+    },
+    {
+      "name": "overcurrent",
+      "status": 200,
+      "elapsedMs": 2759,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "degraded",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor remains operational without tripping but is in a degraded state with an overall asset health score of 69% due to elevated temperatures of 82.4°C and winding overcurrent conditions. Peak pre-trip evidence confirms these risks, showing a minimum bearing health of 92%, vibration of 2.1, and a current draw of 8A against a minimum voltage of 229V. While the motor survived the forecast window, the sustained high temperature is accelerating core damage and requires immediate inspection of cooling airflow and thermal loading.",
+      "pass": true
+    },
+    {
+      "name": "phase-unbalance",
+      "status": 200,
+      "elapsedMs": 2537,
+      "aiGenerated": true,
+      "concise": true,
+      "outcome": "degraded",
+      "explanation": "[AI-GENERATED EXPLANATION] The motor remained operational without tripping but is currently in a degraded state with an overall asset health of 94%, driven by three-phase supply unbalance that resulted in peak pre-trip evidence of 64.2°C temperature, 2.1 vibration, and 4.9 current. Although the minimum voltage dropped to 228V and bearing health remained high at 95%, the asset requires immediate attention as indicated by the recommendation to schedule an inspection at the next shift break.",
+      "pass": true
+    }
+  ]
+}

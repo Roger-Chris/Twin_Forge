@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0b0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #242933;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e3542;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0b0d;
+  color: #cbd5e1;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* LCD Text Effect */
+.lcd-font {
+  font-family: 'JetBrains Mono', monospace;
+  text-shadow: 0 0 5px rgba(59, 130, 246, 0.4);
+}
+
+.lcd-green {
+  text-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+}
+
+.lcd-amber {
+  text-shadow: 0 0 5px rgba(245, 158, 11, 0.5);
+}
+
+.lcd-red {
+  text-shadow: 0 0 5px rgba(239, 68, 68, 0.5);
+}
+
+/* Grid lines for background control room effect */
+.grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(26, 29, 36, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 29, 36, 0.5) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Animate rotating elements cleanly */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+/* Custom indicator animations */
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.pulse-subtle {
+  animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gauge circle animation properties */
+.gauge-circle {
+  transition: stroke-dashoffset 0.5s ease-out;
+}
